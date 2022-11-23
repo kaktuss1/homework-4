@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homework-4</title>
+</head>
+<body>
+   <div class="container">
+            <div class="main"> 
+                <h1>Таблица Товаров</h1>
+                <table>
+                    <tr>
+                        <th>Кол-во</th>
+                        <th>Наименование</th>
+                        <th>Цена</th>
+                        <th>Год</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Учебник математики</td>
+                        <td>200руб</trd>
+                        <td>2015</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Учебник русского</td>
+                        <td>250руб</td>
+                        <td>2015</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Учебник английского</td>
+                        <td>310руб</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Учебник физики</td>
+                        <td>200руб</td>
+                        <td>2017</td>
+                    </tr>
+                    <tr>
+                        <td>Общая сумма</td>
+                        <td colspan="4">960руб</td>
+                    </tr>
+                </table>
+                <form id="form">
+                    <p><i>Пожалуйста, заполните форму:</i></p>
+                    <p>Контактная информация</p>
+                    <fieldset class="info">
+                        <label for="name">Имя</label>
+                        <input id="name"><br>
+                        <label for="telephone">Телефон</label>
+                        <input id="telephone"><br>
+                        <label for="email">Email</label>
+                        <input id="email"><br>
+                    </fieldset>
+                        <p>Выберите товар</p>
+                        
+                    <fieldset class="check">   
+                        <label for="math"><input id="math" type="checkbox">Математика</label>
+                        <label for="russian"><input id="russian" type="checkbox">Русский</label>
+                        <label for="english"><input id="english" type="checkbox">Английский</label>
+                        <label for="physics"><input id="physics" type="checkbox">Физика</label>
+                        <label for="all"><input type="radio" name="" id="all">Выбрать все</label>
+                    </fieldset> 
+                
+                        
+                </form>        
+            <p><input type="submit" value="Заказать"></p>
+            </div>
+
+            <div class="media">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/a8ZuB-JfQtU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                <video width="400" controls poster="" >
+                    <source src="./media/Бобëр смотря в экран эпично кушает капусту.mp4" type="video/mp4">
+                </video>
+                <p>Rammstein</p> 
+                <p><audio controls>
+                    <source src="./media/Rammstein - Du hast.mp3" type="audio/ogg">
+                    <source src="./media/Rammstein - Du hast.mp3" type="audio/mpeg">
+                </audio><p>
+            </div> 
+    </div>
+    <link rel="stylesheet" href="style.css">
+</body>
+</html>

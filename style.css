@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+table {
+  border: 1px solid black;
+  height: 10rem;
+  width: 30rem;
+  text-align: center;
+  border-collapse: collapse;
+}
+table td:nth-child(even) {
+    background: rgb(224, 220, 220);
+}
+table th {
+    background: rgb(175, 172, 172);
+}
+table tr {
+    padding: 5px 5px 5p 5px;
+}
+table th, td {
+    border: 1px solid black;
+    
+}
+
+p {
+  margin-top: 0px;
+}
+
+fieldset {
+  margin-bottom: 15px;
+  padding: 10px;
+  width: 25rem;
+   
+}
+
+label {
+  width: 130px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+  margin-left: 6px;
+}
+
+input:focus {
+  background: #eaeaea;
+}
+  
+input {
+  width: 249px;
+}
+ 
+input[type=checkbox] {
+  width: 10px;
+}
+  
+input[type=submit] {
+  width: 170px;
+  padding: 10px;
+}
+#form {
+  margin-top: 10px;
+}
+.choose {
+  display: flex;
+}
+.choose input {
+  width: 5px;
+}
+.container {
+   display: flex;
+}
+.media {
+  margin-left: 50px;
+} 
+#all {
+  width: 15px;
+}
+.check {
+  width: 20rem;
+}
